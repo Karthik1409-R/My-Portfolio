@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me..</title>
+  <link rel="stylesheet" href="/CSS/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <center>
+    <div class="row">
+      <h1>KR</h1>
+      <button id="back-btn"><a href="#"><i class="fa-solid fa-arrow-left"></i></a></button>
+    </div>   
+    
+    <div class="sidebar">
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-linkedin" id="linkedIn-btn"></i></a>
+        <a href="#"><i class="fab fa-github" id="Github-btn"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram" id="instagram-btn"></i></a>
+        <a href="#"><i class="fab fa-facebook" id="facebook-btn"></i></a>
+      </div>
+      <div class="vertical-line"></div>
+    </div>
+
+      <div class="main-content">
+        <form onsubmit="return sendEmail();">
+          <div class="row1">
+            <h1>Contact Me!</h1>
+          </div>
+          <div class="row2">
+            <input type="text" name="" id="name"  placeholder="Full Name" required> 
+            <input type="email" name="" id="email"  placeholder="Email"  >
+          </div>
+          <div class="row3">
+            <input type="" name="" id="number"  placeholder="Phone Number" required>
+            <input type="text" name="" id="subject"  placeholder="Subject" required>
+          </div>
+          <div class="row4">
+            <textarea name="text" id="text" placeholder="Message" required></textarea>
+          </div>
+          <div class="row5">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+  </center>
+
+  <script src="/JavaScript/contact.js"></script>  
+  <!-- <script src="https://smtpjs.com/v3/smtp.js"> -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  </script>
+</body>
+</html>
