@@ -1,26 +1,26 @@
 document.getElementById("about").addEventListener("click", () =>{
-  window.location.href = "about.html"
+  window.location.href = "./about.html"
 })
 
 document.getElementById("skills").addEventListener("click", () =>{
-  window.location.href = "skills.html"
+  window.location.href = "./skills.html"
 })
 
 document.getElementById("icon").addEventListener("click", () =>{
-  window.location.href = "home.html"
+  window.location.href = "./home.html"
 })
 
 
 document.getElementById("contact").addEventListener("click", () =>{
-  window.location.href = "contact.html"
+  window.location.href = "./contact.html"
 })
 
 document.getElementById("feats").addEventListener("click", () =>{
-  window.location.href = "feats.html"
+  window.location.href = "./feats.html"
 })
 
 document.getElementById("projects").addEventListener("click", () =>{
-  window.location.href = "projects.html"
+  window.location.href = "./projects.html"
 })
 
 document.getElementById("linkedIn-btn").addEventListener("click", () =>{

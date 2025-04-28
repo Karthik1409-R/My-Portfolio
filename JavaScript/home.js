@@ -64,31 +64,31 @@ particlesJS("particles-js", {
 // js code
 
 document.getElementById("back-btn").addEventListener("click", () =>{
-  window.location.href = "index.html"
+  window.location.href = "./index.html"
 })
 
 document.getElementById("home-section").addEventListener("click", () =>{
-  window.location.href = "index.html"
+  window.location.href = "./index.html"
 })
 
 document.getElementById("about").addEventListener("click", () =>{
-  window.location.href = "about.html"
+  window.location.href = "./about.html"
 })
 
 document.getElementById("skills").addEventListener("click", () =>{
-  window.location.href = "skills.html"
+  window.location.href = "./skills.html"
 })
 
 document.getElementById("contact").addEventListener("click", () =>{
-  window.location.href = "contact.html"
+  window.location.href = "./contact.html"
 })
 
 document.getElementById("feats").addEventListener("click", () =>{
-  window.location.href = "feats.html"
+  window.location.href = "./feats.html"
 })
 
 document.getElementById("projects").addEventListener("click", () =>{
-  window.location.href = "projects.html"
+  window.location.href = "./projects.html"
 })
 
 // social icons

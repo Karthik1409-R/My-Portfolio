@@ -1,5 +1,5 @@
 document.getElementById("back-btn").addEventListener("click", () =>{
-  window.location.href = "index.html"
+  window.location.href = "./index.html"
 });
 
 document.getElementById("calculator").addEventListener("click", () =>{
@@ -12,6 +12,18 @@ document.getElementById("todolist").addEventListener("click", () =>{
 
 document.getElementById("booksky").addEventListener("click", () =>{
   window.location.href = "https://github.com/Karthik1409-R/Book-sky"
+});
+
+document.getElementById("booksky-btn").addEventListener("click", () =>{
+  window.location.href = "https://bookske.netlify.app/"
+});
+
+document.getElementById("todo-btn").addEventListener("click", () =>{
+  window.location.href = "https://todolistmanagerapp.netlify.app/"
+});
+
+document.getElementById("calculator-visit").addEventListener("click", () =>{
+  window.location.href = "https://calculatingap.netlify.app/"
 });
 
 // social icons
